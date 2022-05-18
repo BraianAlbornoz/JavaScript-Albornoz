@@ -43,7 +43,7 @@
     "id" : 14,
     "nombre":"MediaLuna con Jamon", 
     "Precio": 320 ,
-    "img" :"./Img/ImgDelivery/MediaLunaconJamon.jpg",
+    "img" :"./Img/ImgDelivery/mediaLunaconJamon.jpg",
     "cantidad" : 1
 },
 
