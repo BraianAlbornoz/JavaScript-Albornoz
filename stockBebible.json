@@ -1,0 +1,69 @@
+  [
+    {   
+        "id" : 1,  
+        "nombre":"Cafe", 
+        "Precio": 250 , 
+        "img" :"./Img/ImgDelivery/CafeExpreso.jpg",
+        "cantidad" : 1
+    },
+
+    {   
+        "id" : 2,
+        "nombre":"Te", 
+        "Precio": 150,
+        "img" :"./Img/ImgDelivery/Te.jpg " ,
+        "cantidad" : 1
+    },
+
+    { 
+        "id": 3, 
+        "nombre":"Limonada", 
+        "Precio": 200 ,
+        "img" :"./Img/ImgDelivery/Limonada.jpg",
+        "cantidad" : 1
+    },
+
+    { 
+        "id" : 4,
+        "nombre":"Chocolatada", 
+        "Precio": 200 ,
+        "img" :"./Img/ImgDelivery/Chocolatada.jpg",
+        "cantidad" : 1
+    },
+    
+    {
+        "id":5 ,
+        "nombre":"Jugo de Naranja",
+        "Precio":"300" ,
+        "img": "./Img/ImgDelivery/jugoNaranja.jpg", 
+        "cantidad": 1
+    },
+
+    {
+        "id":6 ,
+        "nombre":"Cafe Cortado",
+        "Precio":"200" ,
+        "img": "./Img/ImgDelivery/cafeCortado.jpg", 
+        "cantidad": 1
+    },
+
+    {
+        "id":7 ,
+        "nombre":"Submarino",
+        "Precio":"320" ,
+        "img": "./Img/ImgDelivery/Submarino.jpg", 
+        "cantidad": 1
+    },
+
+    {
+        "id":8 ,
+        "nombre":"Capuchino",
+        "Precio":"220" ,
+        "img": "./Img/ImgDelivery/Capuchino.jpg", 
+        "cantidad": 1
+    }
+
+
+
+
+]

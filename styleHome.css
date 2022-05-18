@@ -1,0 +1,599 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Merienda+One&family=Nunito:wght@200;300;400;500;600&family=Permanent+Marker&family=Roboto:wght@100&family=Satisfy&family=Solway:wght@300&display=swap');
+:root{
+    --main-color:#be9c79;
+    --black:#333;
+    --white:#fff;
+    --light-color:#666;
+    --border:.1rem solid var(--black);
+    --box-shadow:0 .5rem 1rem rgba(0,0,0,.1);
+}
+
+*{
+    font-family: 'Nunito', sans-serif;
+    margin: 0 ; 
+    padding: 0;
+    box-sizing:border-box;
+    outline:none ;
+    border:none;
+    text-decoration: none ;
+    text-transform: capitalize;
+
+}
+*::selection{
+    background-color: var(--main-color);
+    color: var(--white);
+}
+
+::-webkit-scrollbar{
+    height: .5rem;
+    width: 1rem;
+}
+
+::-webkit-scrollbar-track{
+    background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb{
+   background-color: var(--main-color);
+}
+
+/* Home */
+
+
+html{
+    font-size: 62.5%;
+    overflow-x:hidden ;
+    scroll-behavior: smooth;
+    scroll-padding-top: 6rem;
+}
+section{
+    padding: 3rem 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.header{
+    position: sticky;
+    top:0;
+    left: 0;
+    right: 0;
+    background-color: var(--white);
+    box-shadow: var(--box-shadow);
+    z-index: 1000;
+}
+.header .containerFlex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    padding: 1.5rem 2rem;
+}
+.header .containerFlex .logo img{
+    height: 4.5rem;
+}
+.header .containerFlex .navbar a{
+    margin-left: 2rem;
+    font-size: 2rem;
+    color: var(--black);
+    text-decoration: none;
+}
+
+.header .containerFlex .navbar a:hover{
+    text-decoration: underline ;
+    color:var(--main-color);
+}
+#menu-btn{
+    display: none;
+    font-size: 2.5rem;
+    color:var(--black);
+    cursor: pointer;
+}
+.home-bg{
+    background-image: linear-gradient(rgb(209 188 161 / 61%), rgba(214, 196, 172, 0.514)), url(./Img/ImgHome/fondo-desayuno.jpg);
+    background-size: cover ;
+    background-position: center;
+    
+}
+.home-bg .home{
+    height: 91.6vh;
+    display: flex;
+    align-items: center;
+}
+.home-bg .home .content{
+    width: 100rem;
+    text-align: center;
+}
+.home-bg .home .content h1{
+    font-size: 8rem;
+    color:var(--black);
+    font-family: 'Dancing Script', cursive;}
+
+.home-bg .home .content h2 {
+
+    font-family:'Merienda One',Cursive;
+    font-size: 1.5rem;
+    color: var(--black);
+    line-height: 1;
+    
+}
+.home-bg .home .content h3{
+    font-family:'Merienda One',Cursive;
+    padding-top: 3rem;
+}
+
+.btn{
+    display: inline-block;
+    margin-top: 1rem;
+    background-color: var(--main-color);
+    color: var(--white);
+    cursor: pointer;
+    font-size: 1.8rem;
+    padding: 1rem 3rem;
+   
+}
+.btn:hover{
+    background-color: var(--main-color);
+    color: var(--white);
+    
+}
+
+/* Fin Home */
+
+/* Delivery */
+
+.home-bg-pedido{
+    background-image: linear-gradient(rgb(209 188 161 / 61%), rgba(214, 196, 172, 0.514)), url(./Img/ImgDelivery/fondo-Delivey.jpg);
+    background-size: cover ;
+    background-position: center;
+}
+.home-bg-pedido .home-pedido{
+    height: 92vh;
+    display: flex;
+    align-items: center;
+}
+.home-bg-pedido .home-pedido .content-pedido{
+    width: 100%;
+    text-align: center;
+}
+.home-bg-pedido .home-pedido .content-pedido h1{
+    font-size: 6rem;
+    color:var(--black);
+    margin-left: 9rem;
+    padding-bottom: 10rem;
+    padding-right: 7rem;
+    font-family:'Merienda One',Cursive;
+}
+
+img{
+    width: 4rem;
+}
+
+
+.backColor{
+    background-color: bisque;
+}
+.card{
+    background-color: var(--main-color);
+}
+.card-body{
+    background-color: bisque;
+    text-align: center;
+}
+.card-body .card-title{
+    font-size: 2rem;
+    color: var(--light-color);
+}
+.card-body p{
+    font-size: 2rem;
+    color: var(--light-color);
+}
+
+p{
+    font-size: 25px;
+}
+
+.btn:active {
+background-color: var(--black);
+box-shadow: 0 5px #666;
+transform: translateY(4px);
+}
+
+
+.container .row h2{
+   text-align: center;
+   padding-top: 4rem;
+   line-height: 2;
+   font-size: 3rem;
+   color: var(--black);
+}
+.container .row h3{
+    text-align: center;
+    color: var(--black);
+ }
+
+.offcanvas.show {
+    transform: none;
+    transition: 1s;
+    width: 60rem;
+    background-color: bisque;
+    font-size: 1.5rem;
+    opacity: none;
+}
+.offcanvas-header h5{
+    font-size: 2rem;
+
+}
+
+
+.row .flechaAbajo{
+    text-align: center;
+}
+
+.row .flechaAbajo img{
+    width:  12rem;
+    height: 9rem;
+    margin: 4rem;
+}
+.btn-carrito{
+    position: fixed;
+    right: 1rem;
+    bottom: 0;
+    border-radius: 30%;
+}
+
+.imgcarrito{
+    width: 10rem;
+}
+.contenedor-carrito{
+    display: flex;
+}
+
+
+.btn-secondary{
+    background-color: var(--main-color);
+}
+.btn-secondary:hover{
+    background-color: var(--black);
+}
+
+
+.btn-info{
+    border-color: var(--main-color) ;
+}
+.btn-danger{
+    border-color: var(--main-color) ;
+}
+
+
+#boton-finalizar a{
+
+    outline:none ;
+    border:none;
+    text-decoration: none ;
+    color: var(--white);
+
+}
+
+div.modal-backdrop.fade.show{
+    display: none;
+}
+div.modal-backdrop{
+    position: relative;
+}
+.modal-title{
+    margin-left: 16rem;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+
+.wrapper {
+    margin-left: 2rem;
+    margin-top: 3rem;
+    margin-bottom: 8rem;
+    width: 90%;
+    padding: 2rem;
+    background: #fff;
+    box-shadow: 0 0px 2.2px rgba(0, 0, 0, 0.028), 0 0px 5.3px rgba(0, 0, 0, 0.04),
+        0 0px 10px rgba(0, 0, 0, 0.05), 0 0px 17.9px rgba(0, 0, 0, 0.06),
+        0 0px 33.4px rgba(0, 0, 0, 0.072), 0 0px 80px rgba(0, 0, 0, 0.1);
+}
+
+
+form,
+input,
+textarea,
+button {
+    font-family: inherit;
+    font-size: initial;
+}
+
+.form-group label {
+    display: block;
+    margin: 2rem 0 0.5rem 0;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group textarea {
+    width: 100%;
+    padding: 1rem 0.8rem;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    outline: 0;
+    transition: border 0.15s;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"] {
+    height: 4.6rem;
+}
+
+.form-group textarea {
+    resize: vertical;
+}
+
+.submit {
+    font-weight: bold;
+    margin-top: 1rem;
+    padding: 1rem 1.5rem;
+    border: none;
+    background: rgba(173, 216, 230, 0.7);
+    cursor: pointer;
+    transition: 0.15s;
+    margin-left: 10rem;
+}
+
+i {
+    margin-right: 0.5rem;
+}
+
+.submit:hover {
+    background: rgba(173, 216, 230, 1);
+}
+
+.form-group input[type="text"]:focus,
+.form-group input[type="email"]:focus,
+.form-group textarea:focus {
+    border: 1px solid #222;
+}
+
+
+
+/* FIN Delivery */
+
+
+/* Nosotros */
+
+.home-bg-nosotros{
+    background-image: linear-gradient(rgb(209 188 161 / 61%), rgba(214, 196, 172, 0.514)), url(./Img/ImgNosotros/fondo-Equipo.jpg);
+    background-size: cover ;
+    background-position: center;
+}
+.home-bg-nosotros .home-nosotros{
+    height: 92vh;
+    display: flex;
+    align-items: center;
+}
+.home-bg-nosotros .home-nosotros .content-nosotros{
+    width: 100%;
+    text-align: center;
+}
+.home-bg-nosotros .home-nosotros .content-nosotros h1{
+    font-size: 6rem;
+    color:var(--black);
+    margin-left: 9rem;
+    padding-bottom: 24rem;
+    padding-right: 8rem;
+    font-family:'Merienda One',Cursive;
+    }
+
+.team .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,30rem);
+    gap: 2rem;
+    justify-content: center;
+}
+.team .box-container .box{
+    text-align: center;
+    padding-top: 2rem;
+}
+.team .box-container .box img{
+    width: 100%;
+    object-fit: cover;
+    margin-bottom: 1rem;
+}
+.team .box-container .box h3{
+    font-size: 2rem;
+    color: var(--black);
+}
+/* Fin Nosotros */
+
+
+
+/* Contacto */
+.contact .heading{
+    text-align: center;
+}
+.contact .heading img{
+    width: 25rem; ;
+}
+.contact .row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+.contact .row .image{
+    flex: 1 1 50rem;
+}
+.contact .row .image img{
+    width: 100%;
+}
+.contact .row form{
+    flex: 1 1 30rem;
+    border:var(--border);
+    padding: 2rem;
+    text-align: center;
+}
+.contact .row form h3{
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: var(--black);
+}
+.contact .row form .box{
+    width: 100%;
+    padding: 1.4rem;
+    font-size: 1.8rem;
+    color: var(--black);
+    border: var(--border);
+    margin: 1rem 0;
+
+}
+
+
+/* Fin Contacto */
+
+
+
+/* Footer */
+.footer{
+    margin-top: 10rem;
+}
+.footer .box-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(27rem,1fr));
+    gap: 1.5rem;
+    align-items: flex-start;
+}
+
+.footer .box-container .box {
+   text-align: center;
+}
+
+.footer .box-container .box i {
+    font-size: 2.5rem;
+    line-height: 6rem;
+    height: 6rem;
+    width: 6rem;
+    border-radius: 50%;
+    background-color: var(--main-color);
+    color: var(--white);
+    margin-bottom:.5rem ;
+}
+.footer .box-container .box h3{
+    margin: .5rem 0;
+    font-size: 2rem;
+    color: var(--black);
+}
+.footer .box-container .box p{
+    line-height: 2;
+    font-size: 1.6rem;
+    color: var(--light-color);
+}
+.footer .credit{
+    text-align: center;
+    margin-top: 3rem;
+    padding-top: 2.5rem;
+    border-top: var(--border);
+    font-size: 2rem;
+    color:var(--black)
+}
+.footer .credit span{
+    color: var(--main-color);
+}
+/* Fin Footer */
+
+
+
+/* Media queries */
+@media (max-width:991px){
+    html{
+        font-size: 55%;
+    }
+}
+
+@media (max-width:768px){
+    #menu-btn{
+        display:inline-block;
+        transition: .2s linear ;
+    }
+    #menu-btn.fa-times{
+        transform: rotate(180deg);
+    }
+  
+
+    .header .containerFlex .navbar{
+        position:absolute;
+        top: 99%;
+        left: 0;
+        right: 0;
+        background-color: var(--white);
+        border-top: var(--border);
+        border-bottom: var(--border);
+        clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+
+    }
+    .header .containerFlex .navbar.active{
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+        display: block;
+
+    }
+    .header .containerFlex .navbar a{
+        display: block;
+        margin: 2rem;
+        text-decoration: none;
+    }
+    
+    .home-bg{
+        background-position: center;
+    }
+    .home-bg .home{
+        justify-content: center;
+    }
+
+    .btn{
+        display: inline-block;
+        margin-top: 1rem;
+        background-color: var(--main-color);
+        color: var(--white);
+        cursor: pointer;
+        font-size: 1.5rem;
+        padding: 1rem 3rem;
+    }
+
+    .btn-carrito{
+        position: fixed;
+        right: 1rem;
+        bottom: 0;
+        font-size: 1.5rem;
+    }
+    
+
+}
+
+@media(max-width:520px){
+
+    #items tr td{
+
+        font-size: 1.5rem;
+
+    }
+    #items tr .boton-carrito{
+
+        font-size: 1rem;
+
+    }
+
+}
+
+@media (max-width:456px){
+    html{
+        font-size: 50%;
+    }
+
+.home-bg .home .content h1{
+    font-size: 6rem;
+}
+
+}
+
+

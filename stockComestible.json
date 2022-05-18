@@ -1,0 +1,58 @@
+[
+    
+{
+    "id" : 9,
+    "nombre":"Tostados", 
+    "Precio": 400 ,
+    "img" :"./Img/ImgDelivery/Tostados.jpg",
+    "cantidad" : 1
+},
+
+{
+    "id" : 10,
+    "nombre":"Medialuna", 
+    "Precio": 100 ,
+    "img" :"./Img/ImgDelivery/Medialuna.jpg",
+    "cantidad" : 1
+},
+
+{
+    "id" : 11,
+    "nombre":"LemonPie", 
+    "Precio": 350 ,
+    "img" :"./Img/ImgDelivery/LemonPie.jpg",
+    "cantidad" : 1
+},
+
+{
+    "id" : 12,
+    "nombre":"Chocotorta", 
+    "Precio": 450 ,
+    "img" :"./Img/ImgDelivery/Chocotorta.jpg",
+    "cantidad" : 1
+},
+
+{
+    "id" : 13,
+    "nombre":"TostadaFrancesas", 
+    "Precio": 250 ,
+    "img" :"./Img/ImgDelivery/TostadaFrancesas.jpg",
+    "cantidad" : 1
+},
+{
+    "id" : 14,
+    "nombre":"MediaLuna con Jamon", 
+    "Precio": 320 ,
+    "img" :"./Img/ImgDelivery/MedialunaconJamon.jpg",
+    "cantidad" : 1
+},
+
+{
+    "id" : 15,
+    "nombre":"Brownie", 
+    "Precio": 310 ,
+    "img" :"./Img/ImgDelivery/Brawni.jpg",
+    "cantidad" : 1
+}
+
+]
