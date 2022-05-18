@@ -189,7 +189,7 @@ const pintarFooter= () =>{
                             
                                         <div class="form-group">
                                             <label for="email">Email</label>
-                                            <input type="email" name="Email" id="email" placeholder="email@domain.tld" required />
+                                            <input type="email" name="Email" id="email" placeholder="E-mail" required />
                                         </div>
 
                                         <div class="form-group">
